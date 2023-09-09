@@ -1,5 +1,17 @@
 # Income Classification with Ensemble Methods
 
+
+## Table of Contents
+
+* [Background](##Background)
+* [Install](##Install)
+* [Folder Structure](##Folder Structure)
+* [Code](##Code)
+* [Data](##Data)
+  * [Dataset](###Dataset)
+  * [Source](###Source)
+  * [Variables](###Variables)
+
 ## Background 
 This project is for the Kaggle Competition [Udacity ML Charity Competition](https://www.kaggle.com/competitions/udacity-mlcharity-competition/overview). 
 The purpose is to classify if an individual's annual income is above 50,000 usd or not, based on 13 features like age, workclass, etc. 
@@ -30,12 +42,15 @@ This project requires **Python 3.x** and the following Python libraries installe
 Code is provided in the `income_classification.ipynb` notebook file. 
 
 ## Data
+### Dataset
 The dataset `census.csv` is for model training and testing. It consists of approximately 32,000 instances, with each datapoint having 13 features abd 1 label. 
 
 The dataset `test_census.csv` is for making predictions to be submitted to Kaggle. It only consists of 13 features.
 
+### Source 
 The dataset is a modified version of the dataset published in the paper ["Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid"](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf) by Ron Kohavi, with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income). 
 
+### Variables 
 **Features Variables**
 - `age`: Age
 - `workclass`: Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
