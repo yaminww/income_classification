@@ -5,7 +5,7 @@
 
 * [Background](##Background)
 * [Install](##Install)
-* [Folder Structure](##Folder Structure)
+* [Structure](##Structure)
 * [Code](##Code)
 * [Data](##Data)
   * [Dataset](###Dataset)
@@ -26,7 +26,7 @@ This project requires **Python 3.x** and the following Python libraries installe
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/)
 
-## Folder Structure
+## Structure
 	├── model_saved                 # saved trained ML model
 	├── prediction                  # predicted labels on dataset `test_census.csv`
 	|   |── example_submission.csv  # example on submission to Kaggle
