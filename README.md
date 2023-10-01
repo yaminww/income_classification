@@ -18,13 +18,15 @@ The purpose is to classify if an individual's annual income is above 50,000 usd 
 
 ## Install 
 
-This project requires **Python 3.x** and the following Python libraries installed:
+This project requires **Python 3.7** and the following Python libraries installed:
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
+- [Pandas=](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
+- [featurewiz](https://github.com/AutoViML/featurewiz#install)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/)
+- [Optuna]
+- [LightGBM](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
 
 ## Structure
 	├── model_saved                 # saved trained ML model
