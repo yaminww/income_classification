@@ -25,7 +25,7 @@ This project requires **Python 3.7** and the following Python libraries installe
 - [featurewiz](https://github.com/AutoViML/featurewiz#install)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/)
-- [Optuna]
+- [Optuna](https://optuna.org/)
 - [LightGBM](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
 
 ## Structure
