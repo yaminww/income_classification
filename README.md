@@ -20,7 +20,7 @@ The purpose is to classify if an individual's annual income is above 50,000 usd 
 
 This project requires **Python 3.7** and the following Python libraries installed:
 
-- [Pandas=](http://pandas.pydata.org)
+- [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [featurewiz](https://github.com/AutoViML/featurewiz#install)
 - [scikit-learn](http://scikit-learn.org/stable/)
