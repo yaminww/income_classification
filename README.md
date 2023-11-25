@@ -23,6 +23,7 @@ This project requires **Python 3.7** and the following Python libraries installe
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
 - [featurewiz](https://github.com/AutoViML/featurewiz#install)
+- [mlxtend](https://rasbt.github.io/mlxtend/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [XGBoost](https://xgboost.readthedocs.io/en/stable/)
 - [Optuna](https://optuna.org/)
